@@ -50,19 +50,19 @@ const Form = () => {
             id: 1,
             image: phoneImg,
             titre: 'Phone',
-            valeur: '+212631585540',
+            valeur: '+33751518650',
         },
         {
             id: 2,
             image: messageImg,
             titre: 'Email',
-            valeur: 'Younes@gnail.com',
+            valeur: 'elmouatasim.younes@gmail.com',
         },
         {
             id: 3,
             image: locationImg,
             titre: 'Adresse',
-            valeur: '67 Mouisset Agadir',
+            valeur: 'Paris, Île-de-France',
         }
     ]
     
@@ -77,20 +77,20 @@ const Form = () => {
                     <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="grid-first-name">
                         First Name*
                     </label>
-                    <input name='firstname' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 mb-3 leading-tight" id="grid-first-name" type="text" placeholder="Jane" value={donnees.firstname} onChange={handleChange}/>
+                    <input name='firstname' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 mb-3 leading-tight" id="grid-first-name" type="text" placeholder="Prénom" value={donnees.firstname} onChange={handleChange}/>
                     {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                 </div>
                 <div className="w-full md:w-1/3 px-3">
                     <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="grid-last-name">
                         Last Name*
                     </label>
-                    <input name='lastname' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 leading-tight focus:border-black" id="grid-last-name" type="text" placeholder="Doe" value={donnees.lastname} onChange={handleChange} />
+                    <input name='lastname' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 leading-tight focus:border-black" id="grid-last-name" type="text" placeholder="Nom" value={donnees.lastname} onChange={handleChange} />
                 </div>
                 <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                     <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="grid-city">
                         Ville
                     </label>
-                    <input name='city' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 leading-tight focus:border-gray-500" id="grid-city" type="text" placeholder="Agadir" value={donnees.city} onChange={handleChange}/>
+                    <input name='city' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 leading-tight focus:border-gray-500" id="grid-city" type="text" placeholder="Ville" value={donnees.city} onChange={handleChange}/>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">
@@ -98,7 +98,7 @@ const Form = () => {
                     <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="grid-email">
                         Gmail*
                     </label>
-                    <input name='email' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 mb-3 leading-tight focus:border-gray-500" id="grid-email" type="email" placeholder="Gmail" value={donnees.email} onChange={handleChange}/>
+                    <input name='email' className="appearance-none block w-full border border-white bg-transparent rounded py-3 px-4 mb-3 leading-tight focus:border-gray-500" id="grid-email" type="email" placeholder="gmail" value={donnees.email} onChange={handleChange}/>
                 </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6">

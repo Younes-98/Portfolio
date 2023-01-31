@@ -14,7 +14,7 @@ const LesSites = [
     image: ImgReact,
     categorie: 'E-commerce',
     technologies: 'React.js, Redux, CSS et Bootstrap',
-    lien: 'https://yons-ecom-fake-api.netlify.app',
+    lien: 'https://yons-ecom-cloths.netlify.app/',
   },
   {
     id: 3,
@@ -22,15 +22,15 @@ const LesSites = [
     image: ImgReact,
     categorie: 'Vitrine',
     technologies: 'React.js, context-API, EmailJs et Tailwind-CSS',
-    lien: 'https://yons-breakingbad.netlify.app/',
+    lien: '/',
   }, 
   {
     id: 2,
-    nom: 'Serie de Breaking Bad',
+    nom: 'API Github',
     image: ImgTailwindCss,
     categorie: 'Vitrine',
     technologies: 'React.js, Context-API et Tailwind-CSS',
-    lien: 'https://yons-breakingbad.netlify.app/',
+    lien: 'https://yons-github.netlify.app/',
   },
   {
     id: 4,

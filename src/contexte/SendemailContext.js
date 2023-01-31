@@ -7,12 +7,9 @@ const SendemailProvider = ({children}) => {
         firstname: "",
         lastname: "",
         email: "",
-        // password: "",
         objet: "",
         message: "",
         city: "",
-        // state: "",
-        // zip: "",
     })
     return (
         <SendemailContexte.Provider value={

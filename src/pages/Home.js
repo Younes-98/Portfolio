@@ -13,9 +13,9 @@ const Home = () => {
     <>
     <div id='home' style={{backgroundImage: `url(${Image})`}} className="relative w-full h-screen bg-cover bg-no-repeat bg-center" >
         <div className='absolute h-full w-full mx-auto text-center text-white bg-gradient-to-b from-black pt-60 leading-[60px]'>
-            <Roll left cascade>
-              <h1 className="font-bold text-base md:text-4xl"> Bomjour, mon nom est <span className="text-[greenyellow] uppercase inline-block">Younes EL MOUATASIM</span></h1>
-            </Roll> 
+            {/* <Roll left cascade> */}
+              <h1 className="font-bold text-base md:text-4xl"> Bonjour, C'est <span className="text-[greenyellow] uppercase inline-block">Younes EL MOUATASIM</span></h1>
+            {/* </Roll>  */}
             <h3 className='mt-6 font-bold text-3xl text-[greenyellow]'>
               <Typical steps={['I am', 1000, 'I am Developer', 2000, 'I am', 1000, 'I am Searcher', 2000]} loop={Infinity} wrapper="p"/>
             </h3>       
